@@ -1,0 +1,8 @@
+TO RUN THE PROGRAM YOU NEED TO RUN THESE COMMAND IN THE TERMINAL AFTER SAVING ALL THE FILES IN SAME FOLDER
+	flex lexer.l.txt
+	bison -d tac.y --warnings=none
+	g++ tac.tab.c -w -o gocompiler
+    ./gocompiler<test.go
+
+AFTER RUNNING ALL THESE COMMANDS THE ICG WILL WORK AND WILL RUN THE GO PROGRAM
+		

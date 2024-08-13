@@ -1,0 +1,26 @@
+sum = 0
+T0 = 6 + 5
+T1 = 10 * T0
+b = T1
+i = 0
+L0: 
+T2 = i < 10
+T3 = not T2
+if T3 goto L1
+goto L2
+L3: 
+T4 = i + 1
+i = T4
+goto L0 
+L2: 
+T5 = sum + 1
+sum = T5
+goto L3 
+L1: 
+a = 2
+F = "Hello"
+T6 = 7 == 0
+T7 = 8 >= 0
+num = 9
+T8 = num < 0
+T9 = num < 10
